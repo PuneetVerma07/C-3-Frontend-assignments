@@ -1,0 +1,168 @@
+:root {
+	--bg: #08091e;
+
+	--card: #8e76c63a;
+
+	--purple: #b86bff;
+
+	--white: #ffffff;
+
+	--text-secondary: #d9d9d9;
+
+	--border: #ffffff60;
+
+	/* --space-xs: 8px;
+	--space-sm: 12px;
+	--space-md: 16px;
+	--space-lg: 24px;
+	--space-xl: 32px;
+	--space-2xl: 48px; */
+}
+
+@font-face {
+	font-family: Outfit;
+	src: url(./fonts/Outfit-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+	background:
+		radial-gradient(circle at top left, #b31f6f, transparent 30%),
+		radial-gradient(circle at bottom right, #8c35d4, transparent 30%), #08091e;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-family: Outfit;
+}
+
+.heading {
+    height: 40px;
+    width: 100%;
+	display: flex;
+	/* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+	gap: 0.4rem;
+	padding: 20px 60px;
+}
+
+.heading p {
+	text-align: right;
+	font-size: 16px;
+}
+
+.heading h1 {
+	font-size: 20px;
+}
+
+section.cards {
+    height: calc(100% - 500px);
+    width: 100%;
+    padding: 10px 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+.card {
+    height: 100%;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.15);
+    /* backdrop-filter: blur(20px); */
+    padding: 18px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card img {
+	width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    object-position: top;
+}
+
+.text-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.text-content h2{
+    font-size: 16px;
+}
+
+.text-content p{
+    font-size: 12px;
+}
+
+button{
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    color: white;
+    border: 2px solid var(--purple);
+}
+
+.dot{
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dot1{
+    top: 20%;
+    left: 2%;
+    opacity: 0.6;
+}
+.dot2{
+    top: 20%;
+    right: 2%;
+    opacity: 0.6;
+}
+.dot3{
+    top: 70%;
+    left: 2%;
+    opacity: 0.8;
+}
+.dot4{
+    top: 70%;
+    right: 2%;
+    opacity: 0.8;
+}
+.dot5{
+    top: 90%;
+    left: 2%;
+    opacity: 1;
+}
+.dot6{
+    top: 90%;
+    right: 2%;
+    opacity: 1;
+}
