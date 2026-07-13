@@ -1,0 +1,134 @@
+/* :root { */
+  /* Light Mode Variables */
+  /* --bg-main: #f8fafc; */
+  /* --bg-card: #ffffff; */
+  /* --text-main: #0f172a; */
+  /* --text-muted: #64748b; */
+  /* --border-color: #e2e8f0; */
+  /* --vibrant-blue: #2563eb; */
+/* } */
+
+body.dark {
+  /* Dark Mode variables */
+  --bg-main: #0b0f19;
+  --bg-card: #151c2c;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-color: #1e293b;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/InterTight-Regular.ttf);
+}
+
+body{
+    display: grid;
+    grid-template-columns: 260px 1fr 320px;
+    min-height: 100vh;
+}
+
+aside:first-child{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.app-content{
+    background-color: cadetblue;
+}
+
+aside:last-of-type{
+    background-color: burlywood;
+}
+/* 
+.app-container{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-main);
+}
+
+.sidebar{
+    width: 260px;
+    background-color: var(--bg-card);
+    border-right: 1px solid var(--border-color);
+    padding: 24px;
+}
+
+.main-layout{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.top-bar{
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--bg-card);
+}
+
+.top-bar .user-greeting{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.top-bar .logout-btn{
+    padding: 6px 14px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.content-body{
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+
+.middle-panel{
+    flex: 3;
+}
+
+.stat-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.right-panel{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card{
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.fab-btn{
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: var(--vibrant-blue);
+    color: var(--bg-card);
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+} */

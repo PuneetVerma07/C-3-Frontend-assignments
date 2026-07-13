@@ -1,0 +1,37 @@
+:root{
+
+    /* colors */
+
+    --primary-color: #fff;
+    --success-color: green;
+    --danger-color: red;
+    --warning-color: yellow;
+
+    /* Backgrounds */
+
+    --bg-main: gray;
+    --bg-sidebar: #fff;
+    --bg-card: gray;
+
+    /* text */
+
+    --text-primary: black;
+    --text-secondary: gray;
+
+    /* Border */
+
+    --border-color: gray;
+
+    /* shadow */
+
+    --shadow-sm: ;
+    --shadow-md: ;
+
+    /* Radius */
+
+    --radius-sm: ;
+    --radius-md: ;
+    --radius-lg: ;
+
+    
+}
